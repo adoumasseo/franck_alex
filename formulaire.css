@@ -1,0 +1,375 @@
+*
+{
+    
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT',Calibri, 'Trebuchet MS', sans-serif;
+    /* border: 1px solid red; */
+    /* background-color: blue; */
+}
+#form
+{
+    
+    display: flex;
+    height: 400px;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 95px;
+    margin-left: 160px;
+    font-size: 20px;
+}
+.style
+{
+    width: 60%;
+    border:0px;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 18px;
+    font-family: 'comic_reliefregular','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bouton_lo_pere
+{
+    width: 35%;
+    display: flex;
+    justify-content:flex-end;
+}
+.bouton
+{
+    width: 100px;
+    outline: none;
+    font-size: 18px;
+    font-family: 'comic_reliefregular','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  rgb(21, 6, 133);
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+.style:focus
+{
+    border-bottom: 2px solid rgb(21, 6, 133);
+}
+.search
+{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 3px;
+    justify-content: space-between;
+    outline: none;
+
+}
+#recherche
+{
+    border:0px;
+    width: 350px;
+    outline: none;
+}
+.essai:focus
+{
+    
+    border-radius: 3px;
+}
+.icon_search
+{
+    border: 0px;
+    background-color: white;
+}
+
+@font-face {
+    font-family: '3dumbregular';
+    src: url('police/3Dumb-webfont.eot');
+    src: url('3Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('3Dumb-webfont.woff2') format('woff2'),
+         url('3Dumb-webfont.woff') format('woff'),
+         url('3Dumb-webfont.ttf') format('truetype'),
+         url('3Dumb-webfont.svg#3dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'comic_reliefregular';
+    src: url('ComicRelief-webfont.eot');
+    src: url('ComicRelief-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ComicRelief-webfont.woff2') format('woff2'),
+          url('ComicRelief-webfont.woff') format('woff'),
+         url('ComicRelief-webfont.ttf') format('truetype'),
+         url('ComicRelief-webfont.svg#comic_reliefregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.navbar
+{
+    display: flex;
+    width: 100%;
+    height:85px;
+    background-color: rgb(21, 6, 133);
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+h1
+{
+    font-family: 'comic_reliefregular','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: auto;
+    color: white;
+    /* border:1px solid black; */
+}
+.h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#year,#filiere
+{
+    font-size: 18px;
+    font-family: 'comic_reliefregular','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height:85px;
+    background-color: rgb(21, 6, 133);
+}
+.footer1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 70%;
+    color: white;
+    font-size: 20px;
+}
+.uac
+{
+    margin-top: 8px;
+    font-family: 'comic_reliefregular','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.eneam
+{
+    font-family: 'comic_reliefregular','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 8px;
+}
+.footer22
+{
+    display: flex;
+    width: 15%;
+    margin-bottom: 1px;
+}
+.footer2
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon
+{
+    font-size: 40px;
+    color: white;
+}
+
+@media screen and (max-width: 500px)
+{
+    .respon_img
+{
+    width: 60px;
+    height: 60px;
+}
+h1
+{
+    font-size: 12px;
+}
+#form
+{
+    width: auto;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+.style
+{
+    font-size: 11px;
+}
+#year,#filiere
+{
+    font-size: 11px;
+}
+.size
+{
+    font-size: 11px;
+}
+/* .bouton_lo_pere
+{
+
+} */
+.bouton
+{
+    width: 60px;
+    font-size: 11px;
+}
+footer
+{
+    width: auto;
+    flex-direction: column;
+    height: 110px;
+}
+.footer1
+{
+    font-size: 11px;
+}
+.footer22
+{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer2
+{
+    width: 40%;
+    margin-bottom: 10px;
+}
+.icon
+{
+    font-size: 30px;
+}
+}
+@media screen and (min-width: 501px) and (max-width: 790px)
+{
+
+    .respon_img
+{
+    width: 50px;
+    height: 50px;
+}
+h1
+{
+    font-size: 15px;
+}
+#form
+{
+    width: auto;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+.style
+{
+    font-size: 12px;
+}
+#year,#filiere
+{
+    font-size: 12px;
+}
+.size
+{
+    font-size: 12px;
+}
+/* .bouton_lo_pere
+{
+
+} */
+.bouton
+{
+    width: 70px;
+    font-size: 12px;
+}
+footer
+{
+    width: auto;
+    flex-direction: column;
+    height: 90px;
+}
+.footer1
+{
+    font-size: 12px;
+}
+.footer22
+{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer2
+{
+    width: 30%;
+    margin-bottom: 10px;
+}
+.icon
+{
+    font-size: 35px;
+}
+}
+@media screen and (min-width : 791px) and (max-width : 1024px)
+{ 
+.respon_img
+{
+    width: 50px;
+    height: 50px;
+}
+h1
+{
+    font-size: 17px;
+}
+#form
+{
+    width: auto;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+.style
+{
+    font-size: 13px;
+}
+#year,#filiere
+{
+    font-size: 13px;
+}
+.size
+{
+    font-size: 13px;
+}
+/* .bouton_lo_pere
+{
+
+} */
+.bouton
+{
+    width: 70px;
+    font-size: 12px;
+}
+footer
+{
+    width: auto;
+    flex-direction: column;
+    height: 90px;
+}
+.footer1
+{
+    font-size: 13px;
+}
+.footer22
+{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer2
+{
+    width: 30%;
+    margin-bottom: 10px;
+}
+.icon
+{
+    font-size: 35px;
+}
+}

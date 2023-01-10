@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css "href="D:\Developpement_web\formulaire_franck\formulaire.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FORMULAIRE DU SITE DE RENSEIGNEMENT </title>
+</head>
+<body>
+    <section>
+        <div class="navbar">
+            <div><img src="logo_uac2.png" alt="logo_uac" width="80px" height="80px" class="respon_img"></div>
+            <div class="h1"><h1>Formulaire de renseignement</h1></div>
+            <div><img src="BJ00001_logo.png" alt="logo_eneam" width="80px" height="80px" class="respon_img"></div>
+        </div>
+       
+        <form action="" method="post" id="form">
+            <div><input type="text" name="nom" id="nom" placeholder="Nom" class="style" autofocus required></div>
+            <div><input type="text" name="prenom" id="prenom" placeholder="Prenom"class="style" required></div>
+            <div><input type="date" name="borndate" id="borndate" value="Date de Naissance" min="01/01/2000" max="31/12/2023" class="style" required></div>
+            
+            <!-- <div><input type="url" name="url_dsite_de_description" placeholder="https://openclassrooms.com/fr/courses/" class="style"></div> -->
+            
+            <!-- <div class="search">
+                <div class="essai"><input type="search" name="recherche" id="recherche" placeholder="Search...."></div>
+                <div><button class="icon_search"><i class="fa-solid fa-magnifying-glass "></i></button></div>
+            </div>
+             -->
+            <div><input type="text" name="rule" id="poste" placeholder="Votre Condition au sein de l'UE-ENEAM" class="style" required></div>
+            <div>
+                <label for="filiere" class="size">De quelle filière êtes-vous ?</label><br>
+                <select name="filiere" id="filiere">
+                    <option value="IG" selected>IG</option>
+                    <option value="GCO">GCO</option>
+                    <option value="GBA">GBA</option>
+                    <option value="GTL">GTL</option>
+                    <option value="GRH">GRH</option>
+                    <option value="STAT">STAT</option>
+                    <option value="PLAN">PLAN</option>
+                    <option value="GFC">GFC</option>
+                </select>
+            </div>
+            <div>
+                <label for="year" class="size">En quelle année d'étude êtes-vous ?</label><br>
+                <select name="year" id="year">
+                    <option value="1" selected>1ère année</option>
+                    <option value="2">2ème année</option>
+                    <option value="3">3ème année</option>
+                </select>
+            </div>
+            <div class="bouton_lo_pere"><input type="submit" value="Valider" class="bouton"></div>
+        </form>
+    </section>
+    <footer>
+        <div class="footer1">
+            <div class="uac">Université d'Abomey-Calavi</div>
+            <div class="eneam">Ecole Nationale D'Economie Appliquée et de Management</div>
+        </div>
+        <div class="footer22">
+            <div class="footer2">
+                <div><a href="" target="_blank"><i class="fa-brands fa-facebook icon " ></i></a></div>
+                <div><a href=""target="_blank"><i class="fa-brands fa-instagram icon " ></i></a></div>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>

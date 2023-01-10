@@ -1,0 +1,60 @@
+.respon_img
+{
+    width: 60px;
+    height: 60px;
+}
+h1
+{
+    font-size: 12px;
+}
+#form
+{
+    width: auto;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+.style
+{
+    font-size: 11px;
+}
+#year,#filiere
+{
+    font-size: 11px;
+}
+.size
+{
+    font-size: 11px;
+}
+/* .bouton_lo_pere
+{
+
+} */
+.bouton
+{
+    width: 60px;
+    font-size: 11px;
+}
+footer
+{
+    width: auto;
+    flex-direction: column;
+    height: 80px;
+}
+.footer1
+{
+    font-size: 11px;
+}
+.footer22
+{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer2
+{
+    width: 40%;
+}
+.icon
+{
+    font-size: 30px;
+}
